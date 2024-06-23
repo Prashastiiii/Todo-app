@@ -1,0 +1,89 @@
+/* General body styling */
+body {
+  background-color: #d6f4ff; /* Light blue background for the body */
+  color: #333; /* Dark text color */
+}
+
+/* Navbar styling */
+.navbar {
+  background-color: #2b89ed !important; /* Primary blue background for the navbar */
+  border-bottom: 3px solid #2b89ed; /* Light blue border at the bottom */
+}
+
+.navbar-brand {
+  color: #ffffff !important; /* White color for the brand */
+  font-size: 1.5rem; /* Larger font size for the brand */
+  font-weight: bold; /* Bold font weight for the brand */
+}
+
+.navbar-toggler {
+  border: none; /* Remove border for the toggle button */
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/ %3E%3C/svg%3E");
+}
+
+.nav-link {
+  color: #ffffff !important; /* White color for the nav links */
+}
+
+.nav-link.active {
+  font-weight: bold; /* Bold font weight for the active link */
+  margin-left: 1250px;
+  
+ 
+}
+
+/* Form control styling */
+.form-control {
+  background-color: #ffffff; /* White background for the input */
+  border: 1px solid #007bff; /* Light blue border for the input */
+  color: #333333; /* Dark color for the input text */
+}
+
+.form-control::placeholder {
+  color: #6c757d; /* Gray color for the placeholder text */
+}
+
+.btn-outline-light {
+  color: #ffffff; /* White color for the button text */
+  border-color: #ffffff; /* White border for the button */
+}
+
+.btn-outline-light:hover {
+  background-color: #ffffff; /* White background for the button on hover */
+  border-color: #ffffff; /* White border for the button on hover */
+  color: #007bff; /* Primary blue color for the button text on hover */
+}
+
+/* Container styling */
+.container {
+  background-color: #ffffff; /* White background for the container */
+  border-radius: 5px; /* Rounded corners for the container */
+  padding: 20px; /* Padding inside the container */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for the container */
+}
+
+h3 {
+  color: #333; /* Dark text color for headings */
+  margin-top: 20px;
+}
+
+h4 {
+  color: #333; /* Dark text color for subheadings */
+  margin-bottom: 5px;
+}
+
+p {
+  color: #333; /* Dark text color for paragraphs */
+  margin-bottom: 10px;
+}
+
+button {
+  color: #ffffff; /* White text color for buttons */
+}
+
+hr {
+  border: 1px solid #2b89ed; /* Light blue border for horizontal rules */
+}

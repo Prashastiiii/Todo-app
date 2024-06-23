@@ -1,0 +1,24 @@
+.footer {
+  background-color: #2b89ed; /* Primary blue background for the footer */
+  color: #ffffff; /* White text color */
+  padding: 1rem 0; /* Padding for the footer */
+  position: relative; /* Fixed position at the bottom */
+  bottom: 0; /* Align at the bottom */
+  width: 100%; /* Full width */
+  text-align: center; /* Center align the text */
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for the footer */
+}
+
+.footer p {
+  margin: 0; /* Remove margin for the paragraph */
+  font-size: 1rem; /* Font size for the footer text */
+}
+
+.footer a {
+  color: #ffffff; /* White color for links */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.footer a:hover {
+  text-decoration: underline; /* Underline links on hover */
+}
